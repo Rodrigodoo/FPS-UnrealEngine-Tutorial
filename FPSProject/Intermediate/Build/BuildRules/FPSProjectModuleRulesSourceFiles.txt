@@ -1,0 +1,3 @@
+C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Source\FPSProject\FPSProject.Build.cs
+C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Source\FPSProject.Target.cs
+C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Source\FPSProjectEditor.Target.cs
