@@ -565,3 +565,267 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2018.12.05-13.15.37:177][  2]LogAssetRegistry: Asset discovery search completed in 9.5881 seconds
 [2018.12.05-13.15.37:179][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2018.12.05-13.15.37:180][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000159 seconds (updated 0 objects)
+[2018.12.05-13.18.01:351][839]LogRenderer: Reallocating scene render targets to support 740x336 Format 10 NumSamples 1 (Frame:2479).
+[2018.12.05-13.18.05:986][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-13.18.06:203][ 28]LogRenderer: Reallocating scene render targets to support 892x408 Format 10 NumSamples 1 (Frame:2656).
+[2018.12.05-13.18.21:186][284]LogRenderer: Reallocating scene render targets to support 892x412 Format 10 NumSamples 1 (Frame:3911).
+[2018.12.05-13.18.21:234][285]LogRenderer: Reallocating scene render targets to support 892x416 Format 10 NumSamples 1 (Frame:3913).
+[2018.12.05-13.18.21:286][286]LogRenderer: Reallocating scene render targets to support 892x424 Format 10 NumSamples 1 (Frame:3915).
+[2018.12.05-13.18.21:332][287]LogRenderer: Reallocating scene render targets to support 892x432 Format 10 NumSamples 1 (Frame:3917).
+[2018.12.05-13.18.21:376][288]LogRenderer: Reallocating scene render targets to support 892x436 Format 10 NumSamples 1 (Frame:3919).
+[2018.12.05-13.18.21:421][289]LogRenderer: Reallocating scene render targets to support 892x444 Format 10 NumSamples 1 (Frame:3921).
+[2018.12.05-13.18.21:466][290]LogRenderer: Reallocating scene render targets to support 892x448 Format 10 NumSamples 1 (Frame:3923).
+[2018.12.05-13.18.21:511][291]LogRenderer: Reallocating scene render targets to support 892x452 Format 10 NumSamples 1 (Frame:3925).
+[2018.12.05-13.18.21:565][292]LogRenderer: Reallocating scene render targets to support 892x456 Format 10 NumSamples 1 (Frame:3927).
+[2018.12.05-13.18.21:616][293]LogRenderer: Reallocating scene render targets to support 892x460 Format 10 NumSamples 1 (Frame:3929).
+[2018.12.05-13.18.54:955][319]LogRenderer: Reallocating scene render targets to support 892x488 Format 10 NumSamples 1 (Frame:5101).
+[2018.12.05-13.20.34:606][542]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.05-13.20.34:612][542]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.05-13.24.15:982][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.12.05-13.24.17:234][950]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-13.24.17:244][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2018.12.05-13.24.17:247][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-13.24.17:256][950]PIE: New page: PIE session: Untitled_1 (05/12/2018, 13:24:17)
+[2018.12.05-13.24.17:276][950]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.12.05-13.24.17:283][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006832s)
+[2018.12.05-13.24.17:284][950]LogAIModule: Creating AISystem for world Untitled_1
+[2018.12.05-13.24.17:285][950]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2018.12.05-13.24.17:285][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008759s)
+[2018.12.05-13.24.17:322][950]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-13.24.17:333][950]LogInit: FAudioDevice initialized.
+[2018.12.05-13.24.17:337][950]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.05-13.24.17:384][950]LogLoad: Game class is 'GameModeBase'
+[2018.12.05-13.24.17:396][950]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.12.05-13.24.17
+[2018.12.05-13.24.17:398][950]LogWorld: Bringing up level for play took: 0.002025
+[2018.12.05-13.24.17:464][950]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 20 classes and 0 folders.
+[2018.12.05-13.24.17:475][950]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0,672
+[2018.12.05-13.24.17:476][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2018.12.05-13.24.41:774][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2018.12.05-13.24.41:777][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-13.24.41:818][403]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-13.24.41:819][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2018.12.05-13.24.41:845][403]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-13.24.41:877][404]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.05-13.25.02:306][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-13.25.47:177][213]LogSlate: Took 0.004380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.05-13.26.09:155][213]LogSlate: Window 'Save Level As' being destroyed
+[2018.12.05-13.26.09:180][213]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.05-13.26.09:421][213]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/FPSMap8FC554AE49B7752068DCB2A21E9AC4C8.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap.umap'
+[2018.12.05-13.26.09:445][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FPSMap_BuiltData" FILE="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap_BuiltData.uasset" SILENT=true
+[2018.12.05-13.26.09:461][213]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/FPSMap_BuiltData289ADA41475AA16EF226E4A29C31E2DE.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap_BuiltData.uasset'
+[2018.12.05-13.26.09:472][213]LogFileHelpers: Saving map 'FPSMap' took 0.299
+[2018.12.05-13.26.09:473][213]Cmd: MAP LOAD FILE="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.05-13.26.09:491][213]LightingResults: New page: Lighting Build
+[2018.12.05-13.26.09:492][213]LoadErrors: New page: Loading map: FPSMap.umap
+[2018.12.05-13.26.09:496][213]MapCheck: New page: Map Check
+[2018.12.05-13.26.09:497][213]LightingResults: New page: Lighting Build
+[2018.12.05-13.26.09:541][213]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.05-13.26.09:553][213]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.05-13.26.09:588][213]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.05-13.26.09:589][213]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,169ms to complete.
+[2018.12.05-13.26.09:589][213]LogFileHelpers: Loading map 'FPSMap' took 0.117
+[2018.12.05-13.27.05:437][740]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.05-13.27.05:703][746]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
+[2018.12.05-13.27.05:703][746]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.05-13.27.05:703][746]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2018.12.05-13.27.05:703][746]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.05-13.27.05:723][747]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2018.12.05-13.27.05:789][751]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.05-13.30.16:844][523]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.05-13.30.16:861][523]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.05-13.53.33:396][324]Candidate modules for hot reload:
+[2018.12.05-13.53.33:396][324]  FPSProject
+[2018.12.05-13.53.33:398][324]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,9203 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
+[2018.12.05-13.53.33:417][324]Warning: Starting HotReload took  0.1s.
+[2018.12.05-13.55.08:551][717]CompilerResultsLog: New page: Compilation - 05/12/2018, 13:55:08
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (no existing makefile)
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Parsing headers for FPSProjectEditor
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\FPSProject.uproject" "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\FPSProjectEditor\Development\FPSProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Reflection code generated for FPSProjectEditor in 26,3004231 seconds
+[2018.12.05-13.55.08:552][717]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:   [1/4] FPSProjectGameModeBase.gen.cpp
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:   [2/4] FPSProjectGameModeBase.cpp
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:   [3/4] UE4Editor-FPSProject-9203.lib
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-9203.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-9203.exp
+[2018.12.05-13.55.08:552][717]CompilerResultsLog:   [4/4] UE4Editor-FPSProject-9203.dll
+[2018.12.05-13.55.08:553][717]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-9203.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-9203.suppressed.exp
+[2018.12.05-13.55.08:553][717]CompilerResultsLog: Total build time: 94,63 seconds (Parallel executor: 49,89 seconds)
+[2018.12.05-13.55.08:553][717]LogMainFrame: MainFrame: Module compiling took 95.175 seconds
+[2018.12.05-13.55.08:613][717]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2018.12.05-13.55.08:616][717]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.05-13.55.08:794][717]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2653 classes and 624 folders.
+[2018.12.05-13.55.08:802][717]Display: HotReload took 95.5s.
+[2018.12.05-13.55.10:979][854]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.05-13.55.10:997][854]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.12.05-13.55.12:854][ 18]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-13.55.12:883][ 18]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-13.55.12:884][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-13.55.12:884][ 18]PIE: New page: PIE session: FPSMap (05/12/2018, 13:55:12)
+[2018.12.05-13.55.12:884][ 18]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.05-13.55.12:907][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022418s)
+[2018.12.05-13.55.12:909][ 18]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.05-13.55.12:909][ 18]LogPlayLevel: PIE: World Init took: (0.002533s)
+[2018.12.05-13.55.12:910][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.025397s)
+[2018.12.05-13.55.12:944][ 18]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-13.55.12:965][ 18]LogInit: FAudioDevice initialized.
+[2018.12.05-13.55.12:999][ 18]LogLoad: Game class is 'GameModeBase'
+[2018.12.05-13.55.13:005][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.05-13.55.13
+[2018.12.05-13.55.13:005][ 18]LogWorld: Bringing up level for play took: 0.004772
+[2018.12.05-13.55.13:021][ 18]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,875
+[2018.12.05-13.55.13:022][ 18]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-13.55.26:559][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-13.55.26:567][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-13.55.26:605][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-13.55.26:605][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-13.55.26:628][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-13.55.26:679][  5]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.12.05-13.56.07:095][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-13.56.52:051][164]LogSlate: Took 0.003723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.05-13.57.59:164][825]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSProjectGameMode.BP_FPSProjectGameMode
+[2018.12.05-13.58.00:448][825]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 117 classes and 0 folders.
+[2018.12.05-13.58.02:320][825]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.12.05-13.58.18:161][557]LogSlate: Window 'Save Content' being destroyed
+[2018.12.05-13.58.18:270][557]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/BP_FPSProjectGameMode1B64AD7A4452FDA8A979F795033B6A19.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Blueprints/BP_FPSProjectGameMode.uasset'
+[2018.12.05-13.59.02:171][701]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-13.59.11:170][ 44]LogRenderer: Reallocating scene render targets to support 912x540 Format 10 NumSamples 1 (Frame:3220).
+[2018.12.05-14.01.33:884][728]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-14.01.33:895][728]LogSlate: Window 'Tutorials' being destroyed
+[2018.12.05-14.01.39:968][ 10]LogSlate: Window 'BP_FPSProjectGameMode' being destroyed
+[2018.12.05-14.01.39:982][ 10]LogSlate: Window 'BP_FPSProjectGameMode' being destroyed
+[2018.12.05-14.01.49:094][576]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.05-14.01.49:286][579]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
+[2018.12.05-14.01.49:286][579]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.05-14.01.49:286][579]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2018.12.05-14.01.49:286][579]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2018.12.05-14.01.49:286][579]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2018.12.05-14.01.49:316][579]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.05-14.02.36:826][532]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.12.05-14.02.56:264][782]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-14.02.56:290][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.02.56:290][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-14.02.56:290][782]PIE: New page: PIE session: FPSMap (05/12/2018, 14:02:56)
+[2018.12.05-14.02.56:290][782]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.05-14.02.56:297][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006640s)
+[2018.12.05-14.02.56:299][782]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.05-14.02.56:300][782]LogPlayLevel: PIE: World Init took: (0.002335s)
+[2018.12.05-14.02.56:300][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.009673s)
+[2018.12.05-14.02.56:371][782]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.02.56:390][782]LogInit: FAudioDevice initialized.
+[2018.12.05-14.02.56:429][782]LogLoad: Game class is 'FPSProjectGameModeBase'
+[2018.12.05-14.02.56:431][782]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.05-14.02.56
+[2018.12.05-14.02.56:432][782]LogWorld: Bringing up level for play took: 0.001369
+[2018.12.05-14.02.56:446][782]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,299
+[2018.12.05-14.02.56:447][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.03:486][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.03:488][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.03.03:529][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-14.03.03:530][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.03:586][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.03.03:610][298]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.05-14.03.18:999][398]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-14.03.19:013][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.19:014][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-14.03.19:014][398]PIE: New page: PIE session: FPSMap (05/12/2018, 14:03:19)
+[2018.12.05-14.03.19:014][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.05-14.03.19:020][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005811s)
+[2018.12.05-14.03.19:021][398]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.05-14.03.19:021][398]LogPlayLevel: PIE: World Init took: (0.001388s)
+[2018.12.05-14.03.19:021][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.007526s)
+[2018.12.05-14.03.19:093][398]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.03.19:110][398]LogInit: FAudioDevice initialized.
+[2018.12.05-14.03.19:153][398]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2018.12.05-14.03.19:156][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.05-14.03.19
+[2018.12.05-14.03.19:156][398]LogWorld: Bringing up level for play took: 0.001037
+[2018.12.05-14.03.19:170][398]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 1,023
+[2018.12.05-14.03.19:171][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.26:354][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.26:355][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.03.26:400][923]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-14.03.26:400][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.03.26:464][923]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.03.26:499][924]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.12.05-14.03.56:623][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.05-14.03.56:848][619]Candidate modules for hot reload:
+[2018.12.05-14.03.56:848][619]  FPSProject
+[2018.12.05-14.03.56:850][619]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,8486 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
+[2018.12.05-14.03.56:869][619]Warning: Starting HotReload took  0.1s.
+[2018.12.05-14.04.30:982][ 90]CompilerResultsLog: New page: Compilation - 05/12/2018, 14:04:30
+[2018.12.05-14.04.30:982][ 90]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
+[2018.12.05-14.04.30:983][ 90]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (ini files are newer than UBTMakefile)
+[2018.12.05-14.04.30:983][ 90]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.05-14.04.30:983][ 90]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.05-14.04.30:983][ 90]CompilerResultsLog: Target is up to date
+[2018.12.05-14.04.30:983][ 90]CompilerResultsLog: Total build time: 33,62 seconds (NoActionsToExecute executor: 0,01 seconds)
+[2018.12.05-14.04.30:983][ 90]LogMainFrame: MainFrame: Module compiling took 34.207 seconds
+[2018.12.05-14.04.31:729][ 90]LogContentBrowser: Native class hierarchy populated in 0.0341 seconds. Added 2653 classes and 624 folders.
+[2018.12.05-14.04.31:751][ 90]Display: HotReload took 35.0s.
+[2018.12.05-14.07.07:146][629]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{a29c570e-6fc6-425c-a8d2-b16b88060a74} was removed. Shutting down audio device.
+[2018.12.05-14.07.07:146][629]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{a29c570e-6fc6-425c-a8d2-b16b88060a74} was removed. Shutting down audio device.
+[2018.12.05-14.07.07:146][629]LogInit: XAudio2 using 'Altifalante/Auscultador (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.05-14.10.53:835][285]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.11.10:345][802]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.05-14.11.10:364][802]LogSlate: Window 'Project Settings' being destroyed
+[2018.12.05-14.13.11:383][706]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.13:768][712]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.13:883][713]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.14:220][714]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.14:747][715]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.31:668][766]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.32:319][768]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.32:649][769]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.13.32:994][770]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.15.11:364][ 64]LogSlate: Took 0.001430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.12.05-14.19.44:813][781]Candidate modules for hot reload:
+[2018.12.05-14.19.44:814][781]  FPSProject
+[2018.12.05-14.19.44:815][781]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,3574 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
+[2018.12.05-14.19.44:832][781]Warning: Starting HotReload took  0.1s.
+[2018.12.05-14.21.56:220][863]CompilerResultsLog: New page: Compilation - 05/12/2018, 14:21:56
+[2018.12.05-14.21.56:223][863]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
+[2018.12.05-14.21.56:223][863]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (source directory changed)
+[2018.12.05-14.21.56:224][863]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.05-14.21.56:224][863]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.05-14.21.56:224][863]CompilerResultsLog: Parsing headers for FPSProjectEditor
+[2018.12.05-14.21.56:225][863]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\FPSProject.uproject" "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\FPSProjectEditor\Development\FPSProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.12.05-14.21.56:226][863]CompilerResultsLog: Reflection code generated for FPSProjectEditor in 31,2533919 seconds
+[2018.12.05-14.21.56:226][863]CompilerResultsLog: Building 4 actions with 8 processes...
+[2018.12.05-14.21.56:226][863]CompilerResultsLog:   [1/4] FPSProjectGameModeBase.gen.cpp
+[2018.12.05-14.21.56:226][863]CompilerResultsLog:   [2/4] FPSProjectGameModeBase.cpp
+[2018.12.05-14.21.56:227][863]CompilerResultsLog:   [3/4] UE4Editor-FPSProject-3574.lib
+[2018.12.05-14.21.56:227][863]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3574.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3574.exp
+[2018.12.05-14.21.56:228][863]CompilerResultsLog:   [4/4] UE4Editor-FPSProject-3574.dll
+[2018.12.05-14.21.56:228][863]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3574.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3574.suppressed.exp
+[2018.12.05-14.21.56:229][863]CompilerResultsLog: Total build time: 130,83 seconds (Parallel executor: 57,29 seconds)
+[2018.12.05-14.21.56:230][863]LogMainFrame: MainFrame: Module compiling took 131.422 seconds
+[2018.12.05-14.21.56:802][863]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2018.12.05-14.21.56:808][863]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.12.05-14.21.57:752][863]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2653 classes and 624 folders.
+[2018.12.05-14.21.57:779][863]Display: HotReload took 133.0s.
+[2018.12.05-14.22.01:432][196]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.05-14.22.01:464][196]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.22.01:465][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.05-14.22.01:466][196]PIE: New page: PIE session: FPSMap (05/12/2018, 14:22:01)
+[2018.12.05-14.22.01:468][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.05-14.22.01:486][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017330s)
+[2018.12.05-14.22.01:494][196]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.05-14.22.01:497][196]LogPlayLevel: PIE: World Init took: (0.010245s)
+[2018.12.05-14.22.01:497][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.029110s)
+[2018.12.05-14.22.01:668][196]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.05-14.22.01:689][196]LogInit: FAudioDevice initialized.
+[2018.12.05-14.22.01:732][196]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2018.12.05-14.22.01:739][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.05-14.22.01
+[2018.12.05-14.22.01:741][196]LogWorld: Bringing up level for play took: 0.004368
+[2018.12.05-14.22.01:768][196]LogTemp: Warning: Game Started!
+[2018.12.05-14.22.01:769][196]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap -0,378
+[2018.12.05-14.22.01:773][196]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.22.10:145][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.22.10:147][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.22.10:202][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.05-14.22.10:203][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.05-14.22.10:283][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.05-14.22.10:325][795]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.05-14.22.10:548][814]Cmd: SELECT NONE
+[2018.12.05-14.22.13:274][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
