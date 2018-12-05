@@ -42,4 +42,14 @@
       <Filter>Source\FPSProject</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FPSProject\FPSCharacter.h">
+      <Filter>Source\FPSProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FPSProject\FPSCharacter.cpp">
+      <Filter>Source\FPSProject</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
