@@ -1,4 +1,4 @@
-﻿Log file open, 12/05/18 17:26:42
+﻿Log file open, 12/06/18 13:43:50
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: FPSProject
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.295340
+LogStats: Stats thread started at 0.349210
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.136s to configure plugins.
+LogStreaming: Display: Took  0.159s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -149,784 +149,539 @@ LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
 LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.42:996][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2018.12.05-17.26.42:996][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2018.12.05-17.26.42:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.42:997][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.43:004][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2018.12.05-17.26.43:004][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2018.12.05-17.26.43:004][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2018.12.05-17.26.43:004][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2018.12.05-17.26.43:005][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2018.12.05-17.26.43:006][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2018.12.05-17.26.43:006][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.05-17.26.43:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.05-17.26.43:016][  0]LogHAL: Display: Platform has ~ 8 GB [8502808576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2018.12.05-17.26.43:016][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.05-17.26.43:016][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2018.12.05-17.26.43:016][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2018.12.05-17.26.43:018][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2018.12.05-17.26.43:018][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
-[2018.12.05-17.26.43:018][  0]LogInit: Computer: LAPTOP-KH6DTING
-[2018.12.05-17.26.43:018][  0]LogInit: User: RosaLopes
-[2018.12.05-17.26.43:018][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.05-17.26.43:018][  0]LogInit: High frequency timer resolution =1.757814 MHz
-[2018.12.05-17.26.43:019][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.12.05-17.26.43:019][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.05-17.26.43:019][  0]LogMemory: Process Physical Memory: 101.89 MB used, 101.89 MB peak
-[2018.12.05-17.26.43:019][  0]LogMemory: Process Virtual Memory: 91.53 MB used, 91.53 MB peak
-[2018.12.05-17.26.43:019][  0]LogMemory: Physical Memory: 5701.07 MB used,  2407.84 MB free, 8108.91 MB total
-[2018.12.05-17.26.43:019][  0]LogMemory: Virtual Memory: 4638.35 MB used,  134213088.00 MB free, 134217728.00 MB total
-[2018.12.05-17.26.43:047][  0]LogInit: Using OS detected language (pt-PT).
-[2018.12.05-17.26.43:047][  0]LogInit: Using OS detected locale (pt-PT).
-[2018.12.05-17.26.43:049][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
-[2018.12.05-17.26.43:430][  0]LogStreaming: Display: Took  0.383s to InitEngineTextLocalization.
-[2018.12.05-17.26.43:430][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.05-17.26.43:478][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.05-17.26.43:478][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.05-17.26.43:882][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.05-17.26.43:882][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.05-17.26.43:962][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
-[2018.12.05-17.26.43:962][  0]LogD3D11RHI:       4055/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.12.05-17.26.43:981][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.12.05-17.26.43:981][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.12.05-17.26.43:985][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.05-17.26.43:985][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.05-17.26.43:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.05-17.26.44:038][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.05-17.26.44:038][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
-[2018.12.05-17.26.44:038][  0]LogWindows: EnumDisplayDevices:
-[2018.12.05-17.26.44:038][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.12.05-17.26.44:039][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
-[2018.12.05-17.26.44:040][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.12.05-17.26.44:041][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.12.05-17.26.44:041][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
-[2018.12.05-17.26.44:041][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.12.05-17.26.44:041][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.12.05-17.26.44:041][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2018.12.05-17.26.44:096][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.05-17.26.44:116][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.12.05-17.26.44:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.05-17.26.44:593][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.05-17.26.44:615][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.05-17.26.44:630][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.05-17.26.44:644][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.05-17.26.44:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.05-17.26.44:673][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.05-17.26.44:687][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.05-17.26.44:694][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.05-17.26.44:778][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.05-17.26.44:841][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.05-17.26.44:841][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.05-17.26.44:870][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.05-17.26.44:870][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.05-17.26.44:883][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.05-17.26.44:896][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.05-17.26.44:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.05-17.26.44:923][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.05-17.26.44:969][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.05-17.26.44:969][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.05-17.26.44:969][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.05-17.26.45:044][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Intermediate/Shaders/WorkingDirectory/15504/).
-[2018.12.05-17.26.45:045][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rosa Lopes/AppData/Local/Temp/UnrealShaderWorkingDir/EA6A4C534B64702DF94E5DA5DC310EC3/'.
-[2018.12.05-17.26.45:047][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.05-17.26.45:047][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.05-17.26.45:047][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.05-17.26.45:614][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.05-17.26.45:676][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.05-17.26.45:689][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.05-17.26.45:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.05-17.26.45:689][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2018.12.05-17.26.45:702][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.05-17.26.45:702][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.05-17.26.45:702][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.05-17.26.45:724][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.05-17.26.45:725][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.05-17.26.45:726][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.05-17.26.45:841][  0]LogAssetRegistry: FAssetRegistry took 0.0400 seconds to start up
-[2018.12.05-17.26.46:220][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.05-17.26.46:381][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.05-17.26.46:386][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.05-17.26.46:386][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.05-17.26.46:386][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.05-17.26.46:386][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.05-17.26.46:401][  0]LogNetVersion: FPSProject 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 609653693)
-[2018.12.05-17.26.46:943][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.056845 seconds
-[2018.12.05-17.26.46:948][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2018.12.05-17.26.46:948][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
-[2018.12.05-17.26.46:948][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.05-17.26.48:114][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.05-17.26.48:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.05-17.26.49:211][  0]SourceControl: Source control is disabled
-[2018.12.05-17.26.49:211][  0]SourceControl: Source control is disabled
-[2018.12.05-17.26.49:214][  0]SourceControl: Source control is disabled
-[2018.12.05-17.26.49:215][  0]SourceControl: Source control is disabled
-[2018.12.05-17.26.49:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.05-17.26.49:522][  0]LogOcInput: OculusInput pre-init called
-[2018.12.05-17.26.49:688][  0]LogEngine: Initializing Engine...
-[2018.12.05-17.26.49:690][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.12.05-17.26.49:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.05-17.26.49:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.05-17.26.49:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.05-17.26.49:691][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.05-17.26.50:124][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.05-17.26.50:149][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.05-17.26.50:174][  0]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-17.26.50:209][  0]LogInit: FAudioDevice initialized.
-[2018.12.05-17.26.50:210][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.05-17.26.50:305][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2018.12.05-17.26.50:312][  0]LogInit: Texture streaming: Enabled
-[2018.12.05-17.26.50:341][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.05-17.26.50:360][  0]LogInit: Transaction tracking system initialized
-[2018.12.05-17.26.50:398][  0]BlueprintLog: New page: Editor Load
-[2018.12.05-17.26.50:504][  0]LocalizationService: Localization service is disabled
-[2018.12.05-17.26.51:083][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/' took 0.01s
-[2018.12.05-17.26.51:083][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.05-17.26.51:084][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.05-17.26.51:084][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.05-17.26.51:084][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.05-17.26.51:084][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.05-17.26.51:084][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.05-17.26.51:084][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.05-17.26.51:288][  0]SourceControl: Source control is disabled
-[2018.12.05-17.26.51:288][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.05-17.26.51:289][  0]LightingResults: New page: Lighting Build
-[2018.12.05-17.26.51:293][  0]MapCheck: New page: Map Check
-[2018.12.05-17.26.51:293][  0]LightingResults: New page: Lighting Build
-[2018.12.05-17.26.51:519][  0]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-17.26.51:528][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.05-17.26.51:557][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.05-17.26.51:559][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,272ms to complete.
-[2018.12.05-17.26.51:559][  0]LogFileHelpers: Loading map 'FPSMap' took 0.270
-[2018.12.05-17.26.51:721][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.26.51:730][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.26.51:738][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.26.51:747][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.26.51:761][  0]LogCollectionManager: Loaded 0 collections in 0.002912 seconds
-[2018.12.05-17.26.51:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Collections/' took 0.01s
-[2018.12.05-17.26.51:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Developers/RosaLopes/Collections/' took 0.01s
-[2018.12.05-17.26.51:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Collections/' took 0.01s
-[2018.12.05-17.26.51:814][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.05-17.26.51:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2652 classes and 622 folders.
-[2018.12.05-17.26.51:842][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.12.05-17.26.51:849][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:855][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:861][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:864][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:869][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:871][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:875][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:877][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:881][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:884][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:887][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:890][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:898][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:905][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:910][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:912][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:914][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:916][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:921][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:923][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:926][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:928][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:931][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.51:933][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2018.12.05-17.26.52:086][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.12.05-17.26.52:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.12.05-17.26.52:132][  0]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.05-17.26.52:134][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.05-17.26.52:144][  0]LogSlate: Took 0.000978 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.05-17.26.52:251][  0]LogRenderer: Reallocating scene render targets to support 740x320 Format 10 NumSamples 1 (Frame:1).
-[2018.12.05-17.26.52:418][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.12.05-17.26.52:418][  0]LogLoad: (Engine Initialization) Total time: 12.05 seconds
-[2018.12.05-17.26.52:418][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.05-17.26.52:437][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.05-17.26.52:509][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.05-17.26.52:521][  0]LogSlate: Took 0.000980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.05-17.26.52:541][  1]LogAssetRegistry: Asset discovery search completed in 6.7215 seconds
-[2018.12.05-17.26.52:544][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.12.05-17.26.52:544][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000104 seconds (updated 0 objects)
-[2018.12.05-17.27.14:910][325]LogRenderer: Reallocating scene render targets to support 740x336 Format 10 NumSamples 1 (Frame:1327).
-[2018.12.05-17.27.17:840][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.27.18:018][436]LogRenderer: Reallocating scene render targets to support 892x408 Format 10 NumSamples 1 (Frame:1431).
-[2018.12.05-17.27.22:362][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.28.12:074][125]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.05-17.28.12:138][125]LogSlate: Took 0.001762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.12.05-17.39.37:513][764]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -invalidatemakefilesonly
-[2018.12.05-17.39.39:131][764]Invalidating makefiles only in this run.
-[2018.12.05-17.39.39:445][764]Candidate modules for hot reload:
-[2018.12.05-17.39.39:445][764]  FPSProject
-[2018.12.05-17.39.39:445][764]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,3850 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
-[2018.12.05-17.40.31:820][764]CompilerResultsLog: New page: Compilation - 05/12/2018, 17:40:31
-[2018.12.05-17.40.31:821][764]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
-[2018.12.05-17.40.31:821][764]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (no existing makefile)
-[2018.12.05-17.40.31:821][764]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.05-17.40.31:821][764]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.12.05-17.40.31:821][764]CompilerResultsLog: Parsing headers for FPSProjectEditor
-[2018.12.05-17.40.31:821][764]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\FPSProject.uproject" "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\FPSProjectEditor\Development\FPSProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.05-17.40.31:822][764]CompilerResultsLog: Reflection code generated for FPSProjectEditor in 13,3550608 seconds
-[2018.12.05-17.40.31:822][764]CompilerResultsLog: Building 8 actions with 8 processes...
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [1/8] FPSProject.init.gen.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [2/8] FPSProject.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [3/8] FPSCharacter.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [4/8] FPSProjectGameModeBase.gen.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [5/8] FPSCharacter.gen.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [6/8] FPSProjectGameModeBase.cpp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [7/8] UE4Editor-FPSProject-3850.lib
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3850.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3850.exp
-[2018.12.05-17.40.31:822][764]CompilerResultsLog:   [8/8] UE4Editor-FPSProject-3850.dll
-[2018.12.05-17.40.31:823][764]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3850.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3850.suppressed.exp
-[2018.12.05-17.40.31:823][764]CompilerResultsLog: Total build time: 51,88 seconds (Parallel executor: 25,87 seconds)
-[2018.12.05-17.40.31:824][764]LogMainFrame: MainFrame: Module compiling took 52.382 seconds
-[2018.12.05-17.40.32:153][764]LogClass: Could not find existing class FPSCharacter in package /Script/FPSProject for HotReload, assuming new class
-[2018.12.05-17.40.32:166][764]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0021 seconds. Added 2 classes and 2 folders.
-[2018.12.05-17.40.32:172][764]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.12.05-17.40.32:462][764]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-17.40.32:472][764]Display: HotReload took 53.2s.
-[2018.12.05-17.40.32:474][764]Warning: HotReload operation took 53.2s.
-[2018.12.05-17.40.33:513][764]LogSlate: Window 'Add C++ Class' being destroyed
-[2018.12.05-17.40.33:547][764]LogHotReload: New module detected: UE4Editor-FPSProject-3850.dll
-[2018.12.05-17.40.33:712][765]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.05-17.40.33:787][765]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2018.12.05-17.40.33:790][765]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.12.05-17.40.33:830][765]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-17.40.33:835][765]Display: HotReload took  0.1s.
-[2018.12.05-17.40.52:700][127]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (18.860 sec). This should never happen. Something is wrong with the timer delegate!
-[2018.12.05-17.44.32:313][783]LogHotReload: New module detected: UE4Editor-FPSProject-2177.dll
-[2018.12.05-17.44.33:687][788]LogHotReload: Starting Hot-Reload from IDE
-[2018.12.05-17.44.33:793][788]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2018.12.05-17.44.33:795][788]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.12.05-17.44.33:858][788]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-17.44.33:860][788]Display: HotReload took  0.2s.
-[2018.12.05-17.46.58:722][487]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
-[2018.12.05-17.46.59:333][487]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
-[2018.12.05-17.47.00:182][487]LogSlate: Window 'Add Blueprint Class' being destroyed
-[2018.12.05-17.47.09:407][943]LogSlate: Window 'Save Content' being destroyed
-[2018.12.05-17.47.09:486][943]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/BP_FPSCharacter6F215ACA4A255AE1426297B0ECF528BF.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Blueprints/BP_FPSCharacter.uasset'
-[2018.12.05-17.47.20:341][592]LogSlate: Window 'BP_FPSCharacter' being destroyed
-[2018.12.05-17.47.20:351][592]LogSlate: Window 'BP_FPSCharacter' being destroyed
-[2018.12.05-17.47.40:748][728]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.05-17.47.40:822][729]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
-[2018.12.05-17.47.40:822][729]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-17.47.40:822][729]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2018.12.05-17.47.40:822][729]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-17.47.40:828][729]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2018.12.05-17.47.40:861][729]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.05-17.47.54:010][299]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.12.05-17.48.23:722][ 68]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-17.48.23:733][ 68]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-17.48.29:374][399]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FPSMap' took 0.034
-[2018.12.05-17.48.29:377][399]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_FPSProjectGameMode] ([1] browsable assets)...
-[2018.12.05-17.48.29:377][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_FPSProjectGameMode]
-[2018.12.05-17.48.29:388][399]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/BP_FPSProjectGameMode_Auto1737B20C647528B2BB0C6D8B6F9D0175C.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Autosaves/Game/Blueprints/BP_FPSProjectGameMode_Auto1.uasset'
-[2018.12.05-17.48.29:391][399]LogFileHelpers: Auto-saving content packages took 0.016
-[2018.12.05-17.48.36:298][813]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-17.48.36:316][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.48.36:318][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-17.48.36:318][813]PIE: New page: PIE session: FPSMap (05/12/2018, 17:48:36)
-[2018.12.05-17.48.36:339][813]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-17.48.36:347][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007939s)
-[2018.12.05-17.48.36:348][813]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-17.48.36:349][813]LogPlayLevel: PIE: World Init took: (0.001169s)
-[2018.12.05-17.48.36:349][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.009960s)
-[2018.12.05-17.48.36:383][813]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-17.48.36:392][813]LogInit: FAudioDevice initialized.
-[2018.12.05-17.48.36:442][813]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-17.48.36:458][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-17.48.36
-[2018.12.05-17.48.36:461][813]LogWorld: Bringing up level for play took: 0.003803
-[2018.12.05-17.48.36:520][813]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 20 classes and 0 folders.
-[2018.12.05-17.48.36:533][813]LogTemp: Warning: FPS Character in use!
-[2018.12.05-17.48.36:533][813]LogTemp: Warning: Game Started!
-[2018.12.05-17.48.36:536][813]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,467
-[2018.12.05-17.48.36:536][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.48.43:446][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.48.43:455][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.48.43:494][225]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-17.48.43:494][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.48.43:526][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.48.43:545][226]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2018.12.05-17.48.56:243][987]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-17.48.56:252][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.48.56:252][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-17.48.56:252][987]PIE: New page: PIE session: FPSMap (05/12/2018, 17:48:56)
-[2018.12.05-17.48.56:252][987]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-17.48.56:254][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002075s)
-[2018.12.05-17.48.56:255][987]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-17.48.56:255][987]LogPlayLevel: PIE: World Init took: (0.000717s)
-[2018.12.05-17.48.56:255][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.002957s)
-[2018.12.05-17.48.56:288][987]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-17.48.56:295][987]LogInit: FAudioDevice initialized.
-[2018.12.05-17.48.56:334][987]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-17.48.56:335][987]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-17.48.56
-[2018.12.05-17.48.56:336][987]LogWorld: Bringing up level for play took: 0.000720
-[2018.12.05-17.48.56:349][987]LogTemp: Warning: FPS Character in use!
-[2018.12.05-17.48.56:349][987]LogTemp: Warning: Game Started!
-[2018.12.05-17.48.56:349][987]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,281
-[2018.12.05-17.48.56:349][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.49.07:429][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.49.07:429][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.49.07:464][650]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-17.49.07:464][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-17.49.07:494][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-17.49.07:554][652]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.12.05-17.49.09:746][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.49.09:752][782]LogSlate: Took 0.002312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.12.05-17.50.26:854][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.50.30:402][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.50.31:606][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.50.33:292][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-17.54.29:093][875]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-17.54.30:181][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-17.54.31:308][939]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.05-17.54.31:402][942]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
-[2018.12.05-17.54.31:402][942]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-17.54.31:403][942]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2018.12.05-17.54.31:403][942]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-17.54.31:403][942]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2018.12.05-17.54.31:419][942]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.05-17.59.55:520][255]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-17.59.55:526][255]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-18.30.29:351][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-18.30.29:558][408]Candidate modules for hot reload:
-[2018.12.05-18.30.29:558][408]  FPSProject
-[2018.12.05-18.30.29:559][408]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,7811 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
-[2018.12.05-18.30.29:567][408]Warning: Starting HotReload took  0.0s.
-[2018.12.05-18.31.46:218][805]CompilerResultsLog: New page: Compilation - 05/12/2018, 18:31:46
-[2018.12.05-18.31.46:219][805]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
-[2018.12.05-18.31.46:219][805]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (source directory changed)
-[2018.12.05-18.31.46:220][805]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.05-18.31.46:220][805]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.12.05-18.31.46:220][805]CompilerResultsLog: Parsing headers for FPSProjectEditor
-[2018.12.05-18.31.46:220][805]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\FPSProject.uproject" "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\FPSProjectEditor\Development\FPSProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.05-18.31.46:221][805]CompilerResultsLog: Reflection code generated for FPSProjectEditor in 17,0516215 seconds
-[2018.12.05-18.31.46:221][805]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.05-18.31.46:221][805]CompilerResultsLog:   [1/5] FPSProject.init.gen.cpp
-[2018.12.05-18.31.46:221][805]CompilerResultsLog:   [2/5] FPSCharacter.gen.cpp
-[2018.12.05-18.31.46:222][805]CompilerResultsLog:   [3/5] FPSCharacter.cpp
-[2018.12.05-18.31.46:222][805]CompilerResultsLog:   [4/5] UE4Editor-FPSProject-7811.lib
-[2018.12.05-18.31.46:222][805]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7811.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7811.exp
-[2018.12.05-18.31.46:222][805]CompilerResultsLog:   [5/5] UE4Editor-FPSProject-7811.dll
-[2018.12.05-18.31.46:222][805]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7811.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7811.suppressed.exp
-[2018.12.05-18.31.46:223][805]CompilerResultsLog: Total build time: 76,20 seconds (Parallel executor: 42,04 seconds)
-[2018.12.05-18.31.46:223][805]LogMainFrame: MainFrame: Module compiling took 76.671 seconds
-[2018.12.05-18.31.46:310][805]LogClass: Could not find existing class FPSCharacter in package /Script/FPSProject for HotReload, assuming new class
-[2018.12.05-18.31.46:311][805]LogClass: Function MoveForward is new.
-[2018.12.05-18.31.46:311][805]LogClass: Function MoveRight is new.
-[2018.12.05-18.31.46:323][805]LogHotReload: Re-instancing FPSCharacter after hot-reload.
-[2018.12.05-18.31.46:485][805]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0008 seconds. Added 2 classes and 2 folders.
-[2018.12.05-18.31.46:489][805]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.12.05-18.31.46:992][805]LogContentBrowser: Native class hierarchy populated in 0.0295 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-18.31.46:992][805]Display: HotReload took 77.5s.
-[2018.12.05-18.32.00:440][610]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-18.32.00:458][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.00:459][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-18.32.00:460][610]PIE: New page: PIE session: FPSMap (05/12/2018, 18:32:00)
-[2018.12.05-18.32.00:460][610]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-18.32.00:466][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005482s)
-[2018.12.05-18.32.00:469][610]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-18.32.00:470][610]LogPlayLevel: PIE: World Init took: (0.003917s)
-[2018.12.05-18.32.00:470][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.009995s)
-[2018.12.05-18.32.00:587][610]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-18.32.00:603][610]LogInit: FAudioDevice initialized.
-[2018.12.05-18.32.00:644][610]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-18.32.00:648][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-18.32.00
-[2018.12.05-18.32.00:650][610]LogWorld: Bringing up level for play took: 0.003567
-[2018.12.05-18.32.00:674][610]LogTemp: Warning: FPS Character in use!
-[2018.12.05-18.32.00:674][610]LogTemp: Warning: Game Started!
-[2018.12.05-18.32.00:675][610]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,606
-[2018.12.05-18.32.00:677][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.14:568][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.14:569][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.32.14:616][433]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-18.32.14:616][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.14:646][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.32.14:704][434]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2018.12.05-18.32.16:275][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-18.32.16:425][537]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-18.32.16:434][537]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.16:434][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-18.32.16:435][537]PIE: New page: PIE session: FPSMap (05/12/2018, 18:32:16)
-[2018.12.05-18.32.16:435][537]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-18.32.16:437][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002381s)
-[2018.12.05-18.32.16:438][537]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-18.32.16:439][537]LogPlayLevel: PIE: World Init took: (0.000906s)
-[2018.12.05-18.32.16:439][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.003772s)
-[2018.12.05-18.32.16:476][537]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-18.32.16:484][537]LogInit: FAudioDevice initialized.
-[2018.12.05-18.32.16:515][537]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-18.32.16:516][537]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-18.32.16
-[2018.12.05-18.32.16:517][537]LogWorld: Bringing up level for play took: 0.000773
-[2018.12.05-18.32.16:529][537]LogTemp: Warning: FPS Character in use!
-[2018.12.05-18.32.16:529][537]LogTemp: Warning: Game Started!
-[2018.12.05-18.32.16:529][537]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,461
-[2018.12.05-18.32.16:530][537]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.25:810][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.25:811][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.32.25:853][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-18.32.25:853][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.32.25:890][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.32.25:915][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.12.05-18.32.26:386][120]Cmd: SELECT NONE
-[2018.12.05-18.32.27:087][161]Cmd: SELECT NONE
-[2018.12.05-18.33.56:775][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-18.33.58:656][629]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-18.33.59:754][629]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.05-18.33.59:846][632]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
-[2018.12.05-18.33.59:846][632]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-18.33.59:846][632]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2018.12.05-18.33.59:846][632]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-18.33.59:852][632]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2018.12.05-18.33.59:874][632]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.05-18.36.14:077][630]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-18.36.14:086][630]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-18.43.30:034][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-18.43.30:273][123]Candidate modules for hot reload:
-[2018.12.05-18.43.30:273][123]  FPSProject
-[2018.12.05-18.43.30:274][123]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,39 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
-[2018.12.05-18.43.30:287][123]Warning: Starting HotReload took  0.1s.
-[2018.12.05-18.44.03:165][ 91]CompilerResultsLog: New page: Compilation - 05/12/2018, 18:44:03
-[2018.12.05-18.44.03:165][ 91]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
-[2018.12.05-18.44.03:165][ 91]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (source directory changed)
-[2018.12.05-18.44.03:165][ 91]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.05-18.44.03:165][ 91]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog: Building 3 actions with 8 processes...
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog:   [1/3] FPSCharacter.cpp
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog:   [2/3] UE4Editor-FPSProject-39.lib
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-39.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-39.exp
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog:   [3/3] UE4Editor-FPSProject-39.dll
-[2018.12.05-18.44.03:166][ 91]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-39.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-39.suppressed.exp
-[2018.12.05-18.44.03:167][ 91]CompilerResultsLog: Total build time: 32,45 seconds (Parallel executor: 21,56 seconds)
-[2018.12.05-18.44.03:167][ 91]LogMainFrame: MainFrame: Module compiling took 32.946 seconds
-[2018.12.05-18.44.03:232][ 91]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0006 seconds. Added 2 classes and 2 folders.
-[2018.12.05-18.44.03:235][ 91]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
-[2018.12.05-18.44.03:545][ 91]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-18.44.03:546][ 91]Display: HotReload took 33.3s.
-[2018.12.05-18.44.13:153][667]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-18.44.13:165][667]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.44.13:166][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-18.44.13:166][667]PIE: New page: PIE session: FPSMap (05/12/2018, 18:44:13)
-[2018.12.05-18.44.13:166][667]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-18.44.13:169][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002735s)
-[2018.12.05-18.44.13:170][667]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-18.44.13:170][667]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2018.12.05-18.44.13:170][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.004244s)
-[2018.12.05-18.44.13:244][667]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-18.44.13:253][667]LogInit: FAudioDevice initialized.
-[2018.12.05-18.44.13:288][667]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-18.44.13:289][667]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-18.44.13
-[2018.12.05-18.44.13:290][667]LogWorld: Bringing up level for play took: 0.000837
-[2018.12.05-18.44.13:303][667]LogTemp: Warning: FPS Character in use!
-[2018.12.05-18.44.13:303][667]LogTemp: Warning: Game Started!
-[2018.12.05-18.44.13:303][667]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap -0,765
-[2018.12.05-18.44.13:304][667]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.44.38:317][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.44.38:318][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.44.38:356][164]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-18.44.38:356][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-18.44.38:409][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-18.44.38:435][165]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.12.05-18.44.40:742][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.12.05-18.44.40:826][302]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2018.12.05-18.44.45:325][567]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.12.05-18.45.07:328][873]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2018.12.05-18.45.31:876][336]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-18.45.32:095][336]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/FPSMap_Auto27EBC9383424D0F9650EAD4BB1721E7A8.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Autosaves/Game/Maps/FPSMap_Auto2.umap'
-[2018.12.05-18.45.32:101][336]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FPSMap' took 0.190
-[2018.12.05-18.45.32:101][336]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
-[2018.12.05-18.49.01:906][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-18.49.03:361][894]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.12.05-18.49.04:505][894]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.05-18.49.04:627][897]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FPSProject
-[2018.12.05-18.49.04:627][897]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-18.49.04:627][897]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
-[2018.12.05-18.49.04:628][897]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
-[2018.12.05-18.49.04:628][897]LogTemp: BranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = LAPTOP-KH6DTING/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
-[2018.12.05-18.49.04:628][897]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Rosa Lopes\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.05-18.50.24:805][652]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-18.50.24:816][652]LogSlate: Window 'Project Settings' being destroyed
-[2018.12.05-19.02.29:426][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-19.02.29:603][969]Candidate modules for hot reload:
-[2018.12.05-19.02.29:603][969]  FPSProject
-[2018.12.05-19.02.29:604][969]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,3049 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
-[2018.12.05-19.02.29:612][969]Warning: Starting HotReload took  0.1s.
-[2018.12.05-19.03.45:757][513]CompilerResultsLog: New page: Compilation - 05/12/2018, 19:03:45
-[2018.12.05-19.03.45:757][513]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
-[2018.12.05-19.03.45:758][513]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (source directory changed)
-[2018.12.05-19.03.45:758][513]CompilerResultsLog: Compiling game modules for hot reload
-[2018.12.05-19.03.45:758][513]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.12.05-19.03.45:759][513]CompilerResultsLog: Parsing headers for FPSProjectEditor
-[2018.12.05-19.03.45:759][513]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\FPSProject.uproject" "C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\FPSProjectEditor\Development\FPSProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.12.05-19.03.45:760][513]CompilerResultsLog: Reflection code generated for FPSProjectEditor in 18,4756549 seconds
-[2018.12.05-19.03.45:760][513]CompilerResultsLog: Building 5 actions with 8 processes...
-[2018.12.05-19.03.45:760][513]CompilerResultsLog:   [1/5] FPSProject.init.gen.cpp
-[2018.12.05-19.03.45:760][513]CompilerResultsLog:   [2/5] FPSCharacter.gen.cpp
-[2018.12.05-19.03.45:760][513]CompilerResultsLog:   [3/5] FPSCharacter.cpp
-[2018.12.05-19.03.45:760][513]CompilerResultsLog:   [4/5] UE4Editor-FPSProject-3049.lib
-[2018.12.05-19.03.45:761][513]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3049.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3049.exp
-[2018.12.05-19.03.45:762][513]CompilerResultsLog:   [5/5] UE4Editor-FPSProject-3049.dll
-[2018.12.05-19.03.45:762][513]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3049.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-3049.suppressed.exp
-[2018.12.05-19.03.45:763][513]CompilerResultsLog: Total build time: 75,64 seconds (Parallel executor: 37,83 seconds)
-[2018.12.05-19.03.45:763][513]LogMainFrame: MainFrame: Module compiling took 76.163 seconds
-[2018.12.05-19.03.45:840][513]LogClass: Could not find existing class FPSCharacter in package /Script/FPSProject for HotReload, assuming new class
-[2018.12.05-19.03.45:841][513]LogClass: Function MoveForward is new.
-[2018.12.05-19.03.45:841][513]LogClass: Function MoveRight is new.
-[2018.12.05-19.03.45:841][513]LogClass: Function StartJump is new.
-[2018.12.05-19.03.45:841][513]LogClass: Function StopJump is new.
-[2018.12.05-19.03.45:856][513]LogHotReload: Re-instancing FPSCharacter after hot-reload.
-[2018.12.05-19.03.45:988][513]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0011 seconds. Added 2 classes and 2 folders.
-[2018.12.05-19.03.45:993][513]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.12.05-19.03.46:367][513]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2654 classes and 624 folders.
-[2018.12.05-19.03.46:369][513]Display: HotReload took 76.8s.
-[2018.12.05-19.03.54:028][969]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.05-19.03.54:040][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-19.03.54:041][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.05-19.03.54:041][969]PIE: New page: PIE session: FPSMap (05/12/2018, 19:03:54)
-[2018.12.05-19.03.54:041][969]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
-[2018.12.05-19.03.54:047][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005559s)
-[2018.12.05-19.03.54:049][969]LogAIModule: Creating AISystem for world FPSMap
-[2018.12.05-19.03.54:050][969]LogPlayLevel: PIE: World Init took: (0.002851s)
-[2018.12.05-19.03.54:050][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.009009s)
-[2018.12.05-19.03.54:121][969]LogInit: XAudio2 using 'LG TV (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.12.05-19.03.54:130][969]LogInit: FAudioDevice initialized.
-[2018.12.05-19.03.54:168][969]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
-[2018.12.05-19.03.54:175][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 60) at 2018.12.05-19.03.54
-[2018.12.05-19.03.54:177][969]LogWorld: Bringing up level for play took: 0.004628
-[2018.12.05-19.03.54:202][969]LogTemp: Warning: FPS Character in use!
-[2018.12.05-19.03.54:203][969]LogTemp: Warning: Game Started!
-[2018.12.05-19.03.54:203][969]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,135
-[2018.12.05-19.03.54:204][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-19.04.17:370][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-19.04.17:371][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-19.04.17:414][354]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.05-19.04.17:415][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
-[2018.12.05-19.04.17:441][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.05-19.04.17:483][356]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.12.05-19.04.17:551][360]Cmd: SELECT NONE
-[2018.12.05-19.04.19:341][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.12.05-19.04.19:582][475]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2018.12.05-19.04.20:671][535]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.12.05-19.05.10:568][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.05-19.05.10:888][530]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
-[2018.12.05-19.05.27:132][424]LogSlate: Window 'BP_FPSCharacter' being destroyed
-[2018.12.05-19.05.27:141][424]LogSlate: Window 'BP_FPSCharacter' being destroyed
-[2018.12.05-19.05.28:339][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:074][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:086][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.06-13.43.51:086][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.06-13.43.51:087][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.06-13.43.51:088][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.06-13.43.51:088][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:088][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.06-13.43.51:088][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.06-13.43.51:088][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.06-13.43.51:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.06-13.43.51:101][  0]LogHAL: Display: Platform has ~ 8 GB [8502808576 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2018.12.06-13.43.51:101][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.06-13.43.51:101][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2018.12.06-13.43.51:101][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2018.12.06-13.43.51:101][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2018.12.06-13.43.51:101][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Scalability.ini]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2018.12.06-13.43.51:102][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2018.12.06-13.43.51:103][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2018.12.06-13.43.51:103][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Config/Windows/Engine.ini]
+[2018.12.06-13.43.51:103][  0]LogInit: Computer: LAPTOP-KH6DTING
+[2018.12.06-13.43.51:103][  0]LogInit: User: RosaLopes
+[2018.12.06-13.43.51:103][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.06-13.43.51:103][  0]LogInit: High frequency timer resolution =1.757814 MHz
+[2018.12.06-13.43.51:103][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.12.06-13.43.51:103][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.06-13.43.51:103][  0]LogMemory: Process Physical Memory: 102.29 MB used, 102.29 MB peak
+[2018.12.06-13.43.51:103][  0]LogMemory: Process Virtual Memory: 91.40 MB used, 91.40 MB peak
+[2018.12.06-13.43.51:104][  0]LogMemory: Physical Memory: 4763.59 MB used,  3345.32 MB free, 8108.91 MB total
+[2018.12.06-13.43.51:104][  0]LogMemory: Virtual Memory: 4638.35 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2018.12.06-13.43.51:169][  0]LogInit: Using OS detected language (pt-PT).
+[2018.12.06-13.43.51:169][  0]LogInit: Using OS detected locale (pt-PT).
+[2018.12.06-13.43.51:171][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
+[2018.12.06-13.43.51:805][  0]LogStreaming: Display: Took  0.636s to InitEngineTextLocalization.
+[2018.12.06-13.43.51:805][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.06-13.43.51:869][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.06-13.43.51:869][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.06-13.43.52:416][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.06-13.43.52:416][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.06-13.43.52:495][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.12.06-13.43.52:495][  0]LogD3D11RHI:       4055/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.12.06-13.43.52:510][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.12.06-13.43.52:510][  0]LogD3D11RHI:       128/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.06-13.43.52:513][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.06-13.43.52:513][  0]LogD3D11RHI:       0/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.06-13.43.52:513][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.06-13.43.52:543][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.06-13.43.52:543][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.12.06-13.43.52:543][  0]LogWindows: EnumDisplayDevices:
+[2018.12.06-13.43.52:543][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.12.06-13.43.52:543][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2018.12.06-13.43.52:544][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.12.06-13.43.52:544][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.06-13.43.52:544][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.12.06-13.43.52:544][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.06-13.43.52:544][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.06-13.43.52:544][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.12.06-13.43.52:581][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.06-13.43.52:598][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.06-13.43.53:019][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.06-13.43.53:034][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.06-13.43.53:050][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.06-13.43.53:066][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.06-13.43.53:084][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.06-13.43.53:100][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.06-13.43.53:116][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.06-13.43.53:132][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.06-13.43.53:141][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.06-13.43.53:238][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.06-13.43.53:307][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.06-13.43.53:307][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.06-13.43.53:334][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.06-13.43.53:334][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.06-13.43.53:349][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.06-13.43.53:367][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.06-13.43.53:382][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.06-13.43.53:400][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.06-13.43.53:452][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.06-13.43.53:452][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.06-13.43.53:453][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.06-13.43.53:565][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Intermediate/Shaders/WorkingDirectory/11480/).
+[2018.12.06-13.43.53:565][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rosa Lopes/AppData/Local/Temp/UnrealShaderWorkingDir/8BEBF8CB48EB553D6BABE98585CF8ACF/'.
+[2018.12.06-13.43.53:569][  0]LogXGEController: Cleaning working directory: C:/Users/Rosa Lopes/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.06-13.43.53:569][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.06-13.43.53:569][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.06-13.43.53:569][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.06-13.43.54:232][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.06-13.43.54:446][  0]LogDerivedDataCache: Loaded boot cache 0.21s 71MB C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.06-13.43.54:446][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2018.12.06-13.43.54:447][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.06-13.43.54:447][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.06-13.43.54:447][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.06-13.43.54:447][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.06-13.43.54:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.06-13.43.54:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.06-13.43.54:466][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2018.12.06-13.43.54:479][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.06-13.43.54:479][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.06-13.43.54:479][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.06-13.43.54:507][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.06-13.43.54:509][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.06-13.43.54:512][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.06-13.43.54:722][  0]LogAssetRegistry: FAssetRegistry took 0.0350 seconds to start up
+[2018.12.06-13.43.55:134][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.06-13.43.55:332][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.06-13.43.55:340][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.06-13.43.55:340][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.06-13.43.55:340][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.06-13.43.55:340][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.06-13.43.55:360][  0]LogNetVersion: FPSProject 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 609653693)
+[2018.12.06-13.43.55:992][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.069349 seconds
+[2018.12.06-13.43.55:999][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2018.12.06-13.43.55:999][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2018.12.06-13.43.55:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.06-13.43.58:062][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.06-13.43.58:078][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.06-13.43.59:203][  0]SourceControl: Source control is disabled
+[2018.12.06-13.43.59:203][  0]SourceControl: Source control is disabled
+[2018.12.06-13.43.59:208][  0]SourceControl: Source control is disabled
+[2018.12.06-13.43.59:211][  0]SourceControl: Source control is disabled
+[2018.12.06-13.43.59:475][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.06-13.43.59:591][  0]LogOcInput: OculusInput pre-init called
+[2018.12.06-13.43.59:757][  0]LogEngine: Initializing Engine...
+[2018.12.06-13.43.59:758][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.06-13.43.59:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.06-13.43.59:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.06-13.43.59:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.06-13.43.59:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.06-13.44.00:064][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.06-13.44.00:093][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.06-13.44.00:112][  0]LogInit: XAudio2 using 'Altifalante/Auscultador (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.06-13.44.00:901][  0]LogInit: FAudioDevice initialized.
+[2018.12.06-13.44.00:901][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.06-13.44.00:993][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Rosa Lopes/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2018.12.06-13.44.01:002][  0]LogInit: Texture streaming: Enabled
+[2018.12.06-13.44.01:039][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.06-13.44.01:061][  0]LogInit: Transaction tracking system initialized
+[2018.12.06-13.44.01:107][  0]BlueprintLog: New page: Editor Load
+[2018.12.06-13.44.01:242][  0]LocalizationService: Localization service is disabled
+[2018.12.06-13.44.01:836][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/' took 0.01s
+[2018.12.06-13.44.01:836][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.06-13.44.01:836][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.06-13.44.01:836][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.06-13.44.01:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.06-13.44.01:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.06-13.44.01:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.06-13.44.01:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.06-13.44.02:087][  0]SourceControl: Source control is disabled
+[2018.12.06-13.44.02:087][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Maps/FPSMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.06-13.44.02:088][  0]LightingResults: New page: Lighting Build
+[2018.12.06-13.44.02:092][  0]MapCheck: New page: Map Check
+[2018.12.06-13.44.02:093][  0]LightingResults: New page: Lighting Build
+[2018.12.06-13.44.02:274][  0]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.06-13.44.02:281][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.06-13.44.02:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.06-13.44.02:309][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,234ms to complete.
+[2018.12.06-13.44.02:309][  0]LogFileHelpers: Loading map 'FPSMap' took 0.222
+[2018.12.06-13.44.02:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.02:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.02:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.02:455][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.02:466][  0]LogCollectionManager: Loaded 0 collections in 0.002484 seconds
+[2018.12.06-13.44.02:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/Collections/' took 0.01s
+[2018.12.06-13.44.02:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Developers/RosaLopes/Collections/' took 0.01s
+[2018.12.06-13.44.02:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Collections/' took 0.01s
+[2018.12.06-13.44.02:508][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.12.06-13.44.02:519][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2653 classes and 622 folders.
+[2018.12.06-13.44.02:528][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.12.06-13.44.02:533][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:536][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:538][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:541][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:543][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:545][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:547][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:552][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:556][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:567][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:573][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:575][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2018.12.06-13.44.02:739][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.12.06-13.44.02:749][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.12.06-13.44.02:768][  0]LogSlate: Took 0.001381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.06-13.44.02:772][  0]LogSlate: Took 0.001746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.06-13.44.02:786][  0]LogSlate: Took 0.001432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.06-13.44.02:891][  0]LogRenderer: Reallocating scene render targets to support 892x408 Format 10 NumSamples 1 (Frame:1).
+[2018.12.06-13.44.03:062][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.12.06-13.44.03:062][  0]LogLoad: (Engine Initialization) Total time: 14.65 seconds
+[2018.12.06-13.44.03:062][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.06-13.44.03:145][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.06-13.44.03:217][  1]LogAssetRegistry: Asset discovery search completed in 8.5187 seconds
+[2018.12.06-13.44.03:219][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.06-13.44.03:219][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2018.12.06-13.44.04:529][  5]LogSlate: Took 0.007599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.06-13.44.07:204][ 13]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.06-13.44.18:060][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.44.18:362][ 46]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2018.12.06-13.44.18:864][ 46]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 117 classes and 0 folders.
+[2018.12.06-13.44.25:762][227]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2018.12.06-13.44.25:862][227]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.06-13.44.25:872][227]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2018.12.06-13.44.26:243][227]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.06-13.44.35:058][695]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2018.12.06-13.44.35:066][695]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2018.12.06-13.44.38:578][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.44.38:670][873]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.06-13.44.38:781][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.44.38:782][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.06-13.44.38:793][873]PIE: New page: PIE session: FPSMap (06/12/2018, 13:44:38)
+[2018.12.06-13.44.38:815][873]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.06-13.44.38:841][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023529s)
+[2018.12.06-13.44.38:846][873]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.06-13.44.38:848][873]LogPlayLevel: PIE: World Init took: (0.006146s)
+[2018.12.06-13.44.38:848][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.032944s)
+[2018.12.06-13.44.39:168][873]LogInit: XAudio2 using 'Altifalante/Auscultador (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.06-13.44.39:325][873]LogInit: FAudioDevice initialized.
+[2018.12.06-13.44.39:459][873]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2018.12.06-13.44.39:473][873]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.06-13.44.39
+[2018.12.06-13.44.39:475][873]LogWorld: Bringing up level for play took: 0.005086
+[2018.12.06-13.44.39:557][873]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0045 seconds. Added 20 classes and 0 folders.
+[2018.12.06-13.44.39:568][873]LogTemp: Warning: FPS Character in use!
+[2018.12.06-13.44.39:568][873]LogTemp: Warning: Game Started!
+[2018.12.06-13.44.39:569][873]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap -0,017
+[2018.12.06-13.44.39:570][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.44.43:836][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.44.43:837][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.43:885][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.06-13.44.43:885][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.44.43:945][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.44.43:967][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.12.06-13.44.46:721][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.46.33:738][645]Candidate modules for hot reload:
+[2018.12.06-13.46.33:739][645]  FPSProject
+[2018.12.06-13.46.33:740][645]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSProject,7727 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" -canskiplink "C:/Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/FPSProject.uproject" ]
+[2018.12.06-13.46.33:749][645]Warning: Starting HotReload took  0.1s.
+[2018.12.06-13.47.38:795][ 68]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2018.12.06-13.47.52:119][650]LogSlate: Window 'Reset UI Layout' being destroyed
+[2018.12.06-13.48.00:807][126]LogSlate: Took 0.001618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.06-13.48.02:074][190]CompilerResultsLog: New page: Compilation - 06/12/2018, 13:48:02
+[2018.12.06-13.48.02:075][190]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject).
+[2018.12.06-13.48.02:075][190]CompilerResultsLog: Creating makefile for hot reloading FPSProjectEditor (source directory changed)
+[2018.12.06-13.48.02:075][190]CompilerResultsLog: Compiling game modules for hot reload
+[2018.12.06-13.48.02:075][190]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.12.06-13.48.02:075][190]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.12.06-13.48.02:075][190]CompilerResultsLog:   [1/3] FPSCharacter.cpp
+[2018.12.06-13.48.02:075][190]CompilerResultsLog:   [2/3] UE4Editor-FPSProject-7727.lib
+[2018.12.06-13.48.02:075][190]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7727.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7727.exp
+[2018.12.06-13.48.02:076][190]CompilerResultsLog:   [3/3] UE4Editor-FPSProject-7727.dll
+[2018.12.06-13.48.02:076][190]CompilerResultsLog:      Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7727.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-7727.suppressed.exp
+[2018.12.06-13.48.02:076][190]CompilerResultsLog: Total build time: 87,27 seconds (Parallel executor: 54,94 seconds)
+[2018.12.06-13.48.02:076][190]LogMainFrame: MainFrame: Module compiling took 88.344 seconds
+[2018.12.06-13.48.02:148][190]LogContentBrowser: Native class hierarchy updated for 'FPSProject' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2018.12.06-13.48.02:152][190]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.12.06-13.48.02:650][190]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2654 classes and 624 folders.
+[2018.12.06-13.48.02:656][190]Display: HotReload took 89.0s.
+[2018.12.06-13.48.07:482][526]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.06-13.48.07:512][526]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.48.07:512][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.06-13.48.07:513][526]PIE: New page: PIE session: FPSMap (06/12/2018, 13:48:07)
+[2018.12.06-13.48.07:513][526]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.06-13.48.07:516][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003384s)
+[2018.12.06-13.48.07:518][526]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.06-13.48.07:518][526]LogPlayLevel: PIE: World Init took: (0.001702s)
+[2018.12.06-13.48.07:518][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.005345s)
+[2018.12.06-13.48.07:574][526]LogInit: XAudio2 using 'Altifalante/Auscultador (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.06-13.48.07:594][526]LogInit: FAudioDevice initialized.
+[2018.12.06-13.48.07:629][526]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2018.12.06-13.48.07:632][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.06-13.48.07
+[2018.12.06-13.48.07:632][526]LogWorld: Bringing up level for play took: 0.001179
+[2018.12.06-13.48.07:647][526]LogTemp: Warning: FPS Character in use!
+[2018.12.06-13.48.07:648][526]LogTemp: Warning: Game Started!
+[2018.12.06-13.48.07:648][526]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 0,063
+[2018.12.06-13.48.07:648][526]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.48.11:344][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.48.11:351][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.48.11:394][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.06-13.48.11:394][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.48.11:428][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.48.11:464][797]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.12.06-13.48.20:270][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.49.02:679][930]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2018.12.06-13.49.02:695][930]LogSlate: Window 'BP_FPSCharacter' being destroyed
+[2018.12.06-13.51.55:363][863]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter
+[2018.12.06-13.52.41:409][662]LogSlate: Window 'BP_FPSCharacter*' being destroyed
+[2018.12.06-13.52.41:425][662]LogSlate: Window 'BP_FPSCharacter*' being destroyed
+[2018.12.06-13.52.42:546][746]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.06-13.52.42:567][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.52.42:568][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.06-13.52.42:568][746]PIE: New page: PIE session: FPSMap (06/12/2018, 13:52:42)
+[2018.12.06-13.52.42:568][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FPSMap
+[2018.12.06-13.52.42:574][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005536s)
+[2018.12.06-13.52.42:575][746]LogAIModule: Creating AISystem for world FPSMap
+[2018.12.06-13.52.42:575][746]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2018.12.06-13.52.42:575][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FPSMap.FPSMap to /Game/Maps/UEDPIE_0_FPSMap.FPSMap (0.007396s)
+[2018.12.06-13.52.42:676][746]LogInit: XAudio2 using 'Altifalante/Auscultador (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.06-13.52.42:711][746]LogInit: FAudioDevice initialized.
+[2018.12.06-13.52.42:746][746]LogLoad: Game class is 'BP_FPSProjectGameMode_C'
+[2018.12.06-13.52.42:749][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FPSMap.FPSMap up for play (max tick rate 0) at 2018.12.06-13.52.42
+[2018.12.06-13.52.42:749][746]LogWorld: Bringing up level for play took: 0.001042
+[2018.12.06-13.52.42:765][746]LogTemp: Warning: FPS Character in use!
+[2018.12.06-13.52.42:765][746]LogTemp: Warning: Game Started!
+[2018.12.06-13.52.42:765][746]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FPSMap 1,18
+[2018.12.06-13.52.42:766][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.52.54:247][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.52.54:248][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.52.54:295][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.06-13.52.54:296][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FPSMap.FPSMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap' with GeneratedClass '/Game/Maps/FPSMap.FPSMap_C' with ClassGeneratedBy '/Game/Maps/FPSMap.FPSMap:PersistentLevel.FPSMap'
+[2018.12.06-13.52.54:353][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.06-13.52.54:426][598]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.12.06-13.52.55:756][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.06-13.52.57:669][692]LogSlate: Window 'Save Content' being destroyed
+[2018.12.06-13.52.57:841][692]LogSavePackage: Moving '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Saved/BP_FPSCharacter03112F114F1AAD3F3DEDD0A7C3DA7D67.tmp' to '../../../../../../Users/Rosa Lopes/Desktop/Rodrigo/GameDev/FPSProject/FPSProject/Content/Blueprints/BP_FPSCharacter.uasset'
+[2018.12.06-13.54.24:657][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FPSMap' took 0.054

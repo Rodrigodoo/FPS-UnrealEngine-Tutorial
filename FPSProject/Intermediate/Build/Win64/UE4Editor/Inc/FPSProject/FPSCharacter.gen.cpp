@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 	FPSPROJECT_API UFunction* Z_Construct_UFunction_AFPSCharacter_MoveRight();
 	FPSPROJECT_API UFunction* Z_Construct_UFunction_AFPSCharacter_StartJump();
 	FPSPROJECT_API UFunction* Z_Construct_UFunction_AFPSCharacter_StopJump();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void AFPSCharacter::StaticRegisterNativesAFPSCharacter()
 	{
@@ -53,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "FPSCharacter.h" },
-		{ "ToolTip", "FUNCTION" },
+		{ "ToolTip", "Movement - Forward" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, "MoveForward", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(FPSCharacter_eventMoveForward_Parms), Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveForward_Statics::Function_MetaDataParams)) };
@@ -86,6 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "FPSCharacter.h" },
+		{ "ToolTip", "Movement - Sides" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, "MoveRight", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, sizeof(FPSCharacter_eventMoveRight_Parms), Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_MoveRight_Statics::Function_MetaDataParams)) };
@@ -108,6 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFPSCharacter_StartJump_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "FPSCharacter.h" },
+		{ "ToolTip", "Movement - Jump" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFPSCharacter_StartJump_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFPSCharacter, "StartJump", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFPSCharacter_StartJump_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AFPSCharacter_StartJump_Statics::Function_MetaDataParams)) };
@@ -153,6 +157,15 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FPSMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FPSMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FPSCameraComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FPSCameraComponent;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -161,9 +174,9 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FPSProject,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFPSCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AFPSCharacter_MoveForward, "MoveForward" }, // 2680276348
-		{ &Z_Construct_UFunction_AFPSCharacter_MoveRight, "MoveRight" }, // 471249866
-		{ &Z_Construct_UFunction_AFPSCharacter_StartJump, "StartJump" }, // 1458852191
+		{ &Z_Construct_UFunction_AFPSCharacter_MoveForward, "MoveForward" }, // 3130628373
+		{ &Z_Construct_UFunction_AFPSCharacter_MoveRight, "MoveRight" }, // 383965836
+		{ &Z_Construct_UFunction_AFPSCharacter_StartJump, "StartJump" }, // 3013831380
 		{ &Z_Construct_UFunction_AFPSCharacter_StopJump, "StopJump" }, // 1014306179
 	};
 #if WITH_METADATA
@@ -173,6 +186,27 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		{ "ModuleRelativePath", "FPSCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSMesh_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSMesh = { UE4CodeGen_Private::EPropertyClass::Object, "FPSMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AFPSCharacter, FPSMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSCameraComponent_MetaData[] = {
+		{ "Category", "FPSCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FPSCharacter.h" },
+		{ "ToolTip", "FPS Camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSCameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "FPSCameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFPSCharacter, FPSCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSCameraComponent_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFPSCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSCharacter_Statics::NewProp_FPSCameraComponent,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFPSCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFPSCharacter>::IsAbstract,
 	};
@@ -181,7 +215,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		FuncInfo, ARRAY_COUNT(FuncInfo),
-		nullptr, 0,
+		Z_Construct_UClass_AFPSCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AFPSCharacter_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -196,7 +230,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSCharacter, 1320891529);
+	IMPLEMENT_CLASS(AFPSCharacter, 3323182585);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSCharacter(Z_Construct_UClass_AFPSCharacter, &AFPSCharacter::StaticClass, TEXT("/Script/FPSProject"), TEXT("AFPSCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

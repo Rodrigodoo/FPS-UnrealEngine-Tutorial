@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
 #include "FPSCharacter.generated.h"
+
 
 UCLASS()
 class FPSPROJECT_API AFPSCharacter : public ACharacter
@@ -20,17 +22,26 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	//PROPERTIES
+	//-----PROPERTIES------
 
+	//FPS Camera
+	UPROPERTY(VisibleAnywhere)
+		UCameraComponent* FPSCameraComponent;
 
-	//FUNCTION
+	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
+		USkeletalMeshComponent* FPSMesh;
+
+	//-----FUNCTIONS------
 	
+	//Movement - Forward
 	UFUNCTION()
 		void MoveForward(float Value);
 
+	//Movement - Sides
 	UFUNCTION()
 		void MoveRight(float Value);
 
+	//Movement - Jump
 	UFUNCTION()
 		void StartJump();
 

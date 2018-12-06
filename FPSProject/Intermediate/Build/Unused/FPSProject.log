@@ -4,9 +4,9 @@
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 3 actions with 8 processes...
     [1/3] FPSCharacter.cpp
-    [2/3] UE4Editor-FPSProject-2177.lib
-       Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-2177.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-2177.exp
-    [3/3] UE4Editor-FPSProject-2177.dll
-       Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-2177.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-2177.suppressed.exp
+    [2/3] UE4Editor-FPSProject-991.lib
+       Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-991.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-991.exp
+    [3/3] UE4Editor-FPSProject-991.dll
+       Creating library C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-991.suppressed.lib and object C:\Users\Rosa Lopes\Desktop\Rodrigo\GameDev\FPSProject\FPSProject\Intermediate\Build\Win64\UE4Editor\Development\FPSProject\UE4Editor-FPSProject-991.suppressed.exp
   Deploying FPSProjectEditor Win64 Development...
-  Total build time: 65,00 seconds (Parallel executor: 53,54 seconds)
+  Total build time: 24,69 seconds (Parallel executor: 15,70 seconds)
