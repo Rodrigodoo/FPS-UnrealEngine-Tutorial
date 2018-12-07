@@ -46,9 +46,21 @@
     <ClInclude Include="..\..\Source\FPSProject\FPSCharacter.h">
       <Filter>Source\FPSProject</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPSProject\FPSProjectile.h">
+      <Filter>Source\FPSProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSProject\FPSHUD.h">
+      <Filter>Source\FPSProject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPSProject\FPSCharacter.cpp">
+      <Filter>Source\FPSProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSProject\FPSProjectile.cpp">
+      <Filter>Source\FPSProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSProject\FPSHUD.cpp">
       <Filter>Source\FPSProject</Filter>
     </ClCompile>
   </ItemGroup>

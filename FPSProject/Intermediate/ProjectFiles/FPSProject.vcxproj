@@ -643,6 +643,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\FPSProject-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FPSProject\FPSHUD.cpp" />
+    <ClCompile Include="..\..\Source\FPSProject\FPSProjectile.cpp" />
+    <ClInclude Include="..\..\Source\FPSProject\FPSHUD.h" />
+    <ClInclude Include="..\..\Source\FPSProject\FPSProjectile.h" />
     <None Include="..\..\FPSProject.uproject" />
     <None Include="..\..\Source\FPSProject.Target.cs" />
     <None Include="..\..\Source\FPSProjectEditor.Target.cs" />

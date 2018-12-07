@@ -24,15 +24,28 @@ protected:
 public:	
 	//-----PROPERTIES------
 
+
 	//FPS Camera
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* FPSCameraComponent;
 
+	//Camera Attached Mesh
 	UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
 		USkeletalMeshComponent* FPSMesh;
 
+	//Gun Muzzle's offset from the camera location
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gameplay")
+		FVector MuzzleOffset;
+
+	//Projectile Class to Spawn
+	UPROPERTY(EditDefaultsOnly, Category = "Projectile")
+		TSubclassOf<class AFPSProjectile> ProjectileClass;
+
+
 	//-----FUNCTIONS------
-	
+
+	//---MOVEMENT---
+
 	//Movement - Forward
 	UFUNCTION()
 		void MoveForward(float Value);
@@ -47,6 +60,12 @@ public:
 
 	UFUNCTION()
 		void StopJump();
+
+	//---FIRE---
+
+	//Function that handles firing projectiles.
+	UFUNCTION()
+		void Fire();
 	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
